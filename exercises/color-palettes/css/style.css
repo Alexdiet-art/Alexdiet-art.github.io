@@ -1,0 +1,117 @@
+#p1-t {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#p1-c1 {
+    background-color: #edeec9;
+    color: rgb(37, 112, 37);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c2 {
+    background-color: #dde7c7;
+    color: rgb(37, 112, 37);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c3 {
+    background-color: #bfd8bd;
+    color: rgb(37, 112, 37);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c4 {
+    background-color: #98c9a3;
+    color: rgb(37, 112, 37);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#p1-c5 {
+    background-color: #77bfa3;
+    color: rgb(37, 112, 37);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+}
+#p2-t {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#p2-c1 {
+    background-color: #ecf8f8;
+    color: rgb(48, 25, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c2 {
+    background-color: #eee4e1;
+    color: rgb(48, 25, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c3 {
+    background-color: #e7d8c9;
+    color: rgb(48, 25, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c4 {
+    background-color: #e6beae;
+    color: rgb(48, 25, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c5 {
+    background-color: #b2967d;
+    color: rgb(48, 25, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-t {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#p3-c1 {
+    background-color: #250902;
+    color: rgb(250, 208, 174);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c2 {
+    background-color: #38040e;
+    color: rgb(250, 208, 174);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3 {
+    background-color: #640d14;
+    color: rgb(250, 208, 174);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c4 {
+    background-color: #800e14;
+    color: rgb(250, 208, 174);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c5 {
+    background-color: #ad2831;
+    color: rgb(250, 208, 174);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px;
+}

@@ -1,0 +1,46 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+div.display-space {
+    padding: 24px;
+}
+div#frame1 {
+    border-width: 10px;
+    border-color: rgb(160, 16, 16);
+    border-style: double dashed;
+    background-color: rgb(245, 238, 220);
+    padding: 20px 10px;
+    margin-top: 48px;
+}
+div#frame2 {
+    border-width: 10px;
+    border-color: rgb(233, 78, 17);
+    border-style: solid groove ridge;
+    padding: 20px 5px;
+    background-color: rgb(245, 238, 220);
+    margin-bottom: 5px;
+}
+div#frame3 {
+    border-width: 10px;
+    border-color: rgb(5, 116, 91);
+    border-style: solid double ridge;
+    padding: 20px 10px;
+    background-color: rgb(245, 238, 220);
+    margin-top: 48px;
+}
+div#frame2a {
+    background-color: rgb(245, 238, 220);
+    padding: 0px;
+    border-width: 5px;
+    border-color: rgb(42, 55, 179);
+    border-style: outset dotted;
+}
+div#frame2a p {
+    color: rgb(42, 55, 179);
+    text-align: center;
+}

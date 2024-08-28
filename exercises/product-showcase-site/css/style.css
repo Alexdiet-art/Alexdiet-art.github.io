@@ -1,6 +1,28 @@
+body {
+    margin: 48px 0px;
+    background-color: rgb(214, 181, 150);
+}
 .container {
     width: 50%;
+    min-width: 2000px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 181, 150);
+}
+#bear-1 {
+    background-color:rgb(226, 200, 176);
+    padding: 60px 0px;
+    color: rgb(245, 241, 229);
+}
+#bear-2 {
+    background-color: rgb(114, 81, 51);
+    padding: 60px 0px;
+    color: rgb(37, 22, 4);
+}
+#bear-3 {
+    background-color: lightpink;
+    padding: 60px 0px;
+    color: rgb(201, 48, 107);
 }

@@ -10,11 +10,20 @@ body {
     max-width: 800px;
 }
 #sidebar {
-    background-color: lightblue;
-    border: 2px solid #438ca5;
+    background-color: #cce7f0;
+    border: 3px solid #438ca5;
     padding: 12px;
+    margin: 6px;
 }
 #main {
     flex: 2;
     padding: 48px;
+}
+div#two-column a {
+    text-decoration: none;
+    color: #438ca5;
+}
+div#sidebar h3 {
+    color: #438ca5;
+    text-decoration: underline 3px;
 }

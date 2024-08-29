@@ -9,8 +9,11 @@ body {
     display: flex;
 }
 #sidebar {
-    flex: 1;
+    background-color: lightblue;
+    border: 2px solid #438ca5;
+    padding: 12px;
 }
 #main {
     flex: 2;
+    padding: 48px;
 }

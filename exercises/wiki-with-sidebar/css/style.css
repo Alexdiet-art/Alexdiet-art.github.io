@@ -19,6 +19,7 @@ body {
 #main {
     flex: 2;
     padding: 48px;
+    display: inline-block;
 }
 div#two-column a {
     text-decoration: none;

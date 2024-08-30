@@ -35,3 +35,9 @@ body {
     grid-area: content;
     margin: 0px 36px;
 }
+#content h4 {
+    color: #ee9154;
+}
+#content h1 {
+    border-bottom: 1px solid #ee9154;
+}

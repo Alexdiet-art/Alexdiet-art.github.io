@@ -5,3 +5,33 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#grid-layout {
+    display: grid;
+    grid-template-columns:1fr 1px 250px 1fr;
+    grid-template-areas: "content . sidebar";
+    margin: 48px 0px;
+}
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px;
+    border: 2px solid #ee9154;
+    max-height: 450px;
+    max-width: 275px;
+}
+#sidebar h3 {
+    color: #8b2d02;
+    background-color: #ee9154;
+    padding: 12px;
+    margin: 0px;
+}
+#sidebar ul {
+    list-style-type: none;
+}
+#sidebar a {
+    text-decoration: none;
+    color: #e46009;
+}
+#content {
+    grid-area: content;
+    margin: 0px 36px;
+}

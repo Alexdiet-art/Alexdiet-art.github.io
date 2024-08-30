@@ -52,7 +52,7 @@
 #container-d6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "one two" "one two" "three three";
+    grid-template-areas: "one two" "three three";
 }
 #d6-cell1 {
     grid-area: one;

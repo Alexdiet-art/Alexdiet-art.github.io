@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #faf3f7;
 }
 #grid-layout {
     display: grid;
@@ -40,7 +41,7 @@ padding: 0px 24px;
 /**************** sIDEBAR SECTION ***********************************/
 #sidebar ul a {
     text-decoration: none;
-    color: #f58dc9;
+    color: #e771b6;
     display: block;
     padding: 12px;
 }
@@ -55,3 +56,24 @@ padding: 0px 24px;
     border-radius: 48px;
 }
 /**************** MAIN-CONTENT SECTION ******************************/
+.metube-item {
+    flex: 300px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+.metube-item .thumb-hold img {
+    background-color: #f75ab6;
+    padding: 12px;
+    border-radius: 24px;
+}
+.metube-item h4 {
+    margin: 8px;
+}
+.metube-item h4 a {
+    text-decoration: none;
+    color: #d42089;
+    display: block;
+}
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}

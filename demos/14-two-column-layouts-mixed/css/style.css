@@ -45,7 +45,8 @@ text-decoration: none;}
 }
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;display: block;
+    color: #111111;
+    display: block;
     padding: 12px;
 }
 #sidebar ul a:hover {

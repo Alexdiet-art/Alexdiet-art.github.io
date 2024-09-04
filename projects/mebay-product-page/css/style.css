@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/**************************** HEADER ******************************/
+.header {
+    text-align: center;
+}
+.header a {
+    text-decoration: none;
+}
+.header #m {
+    color: rgb(144, 71, 212);
+}
+.header #e {
+    color: rgb(216, 27, 27);
+}
+.header #b {
+    color: rgb(36, 84, 240);
+}
+.header #a {
+    color: rgb(240, 212, 56);
+}
+.header #y {
+    color: rgb(133, 245, 118);
+}

@@ -38,11 +38,13 @@ body {
 #column-1 {
     grid-area: a1;
     padding: 0px 36px;
+    
 }
 
 /**************************** COLUMN2 ******************************/
 #column-2 {
     grid-area: a2;
+   
 }
 #column-2 .content-2 {
     display: grid;
@@ -98,19 +100,38 @@ body {
     border: solid thin #275dd3;
     border-radius: 60px;
 }
+#column-2 .content-2 .buttons #button-1:hover {
+    background-color: #213e7e;
+}
+#column-2 .content-2 .buttons #button-2:hover {
+    background-color: #429ec9;
+}
+#column-2 .content-2 .buttons #button-3:hover {
+    background-color: #5b8df831;
+}
 /**************************** COLUMN3 ******************************/
 #column-3 {
     grid-area: a3;
+    
 }
 #column-3 .content-3 {
     border: solid thin #acacac ;
-    padding: 20px;
-    max-width: 300px;
+    padding: 10px;
+    max-width: 250px;
     border-radius: 24px;
     margin-left: 36px;
-    text-align: left;
+    text-align: center;
 }
-#column-3 .content-3 ul {
+#column-3 .content-3 {
     list-style-type: none;
-    text-align: left;
+    text-align: center;
+}
+#column-3 .content-3 span {
+    color: #929292;
+}
+#column-3 .content-3 a {
+    color: black;
+}
+#column-3 .content-3 a:hover {
+    color: #0043d3;
 }

@@ -13,17 +13,92 @@ body {
     text-decoration: none;
 }
 .header #m {
-    color: rgb(144, 71, 212);
+    color: #7731b9;
 }
 .header #e {
-    color: rgb(216, 27, 27);
+    color: #d81b1b;
 }
 .header #b {
-    color: rgb(36, 84, 240);
+    color: #2454f0;
 }
 .header #a {
-    color: rgb(240, 212, 56);
+    color: #f5da45;
 }
 .header #y {
-    color: rgb(133, 245, 118);
+    color: #85f576;
+}
+/**************************** MAIN COLUMN ******************************/
+.main-column {
+    display: grid;
+    grid-template-columns:1.5fr 1.5fr 1fr;
+    grid-template-areas: "a1 a2 a3";
+}
+
+/**************************** COLUMN1 ******************************/
+#column-1 {
+    grid-area: a1;
+    padding: 0px 36px;
+}
+
+/**************************** COLUMN2 ******************************/
+#column-2 {
+    grid-area: a2;
+}
+#column-2 .content-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "a1 a2 a3";
+    
+}
+#column-2 #p1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#column-2 #p2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-2 #p1 {
+    grid-area: a1;
+}
+.content-2 #p2 {
+    grid-area: a2;
+}
+.content-2 .buttons {
+    grid-area: a3;
+    text-align: center;
+}
+.content-2 .buttons #button-1 a {
+    text-decoration: none;
+    color: white;
+}
+.content-2 .buttons #button-1 {
+    background-color: #305196;
+    padding: 1px;
+    border-radius: 60px;
+}
+.content-2 .buttons #button-2 a {
+    text-decoration: none;
+    color: white;
+}
+.content-2 .buttons #button-2 {
+    background-color: #45b1e4;
+    padding: 1px;
+    border-radius: 60px; 
+    margin-top: 12px;
+    margin-bottom: 12px;
+}  
+.content-2 .buttons #button-3 a {
+    text-decoration: none;
+    color: #275dd3;
+}
+.content-2 .buttons #button-3 {
+    border: solid thin #275dd3;
+    border-radius: 60px;
+}
+/**************************** COLUMN3 ******************************/
+#column-3 {
+    grid-area: a3;
 }

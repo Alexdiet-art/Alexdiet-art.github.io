@@ -38,10 +38,10 @@
 }
 .card-style-2 p {
     margin: 0px 0px 48px;
-    padding: 24px;
+    padding: 0px 24px;
 }
 .card-style-2 .animagram-header {
-    padding: 12px 0px;
+    padding: 24px 0px;
 }
 .animagram-header span.logo {
     margin: 0px;

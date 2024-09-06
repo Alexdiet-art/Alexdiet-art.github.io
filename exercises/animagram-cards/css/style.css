@@ -23,7 +23,6 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    justify-content: space-around;
 }
 #animagram-card-2 {
     margin: 20px 16px;
@@ -32,21 +31,25 @@
     margin: 20px 16px 0px 0px;
 }
 /********************* TEXT ****************/
-.card-style-2 .animagram-footer span {
+.card-style-2 .animagram-footer {
     font-size: 24px;
-    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 24px;
+    margin-bottom: 10px;
 }
+
 .card-style-2 p {
-    margin: 0px 0px 48px;
+    margin: 0px 0px 48px 0px;
     padding: 0px 24px;
 }
 .card-style-2 .animagram-header {
-    padding: 24px 0px;
-}
-.animagram-header span.logo {
-    margin: 0px;
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
 }
 .animagram-header span.brand-name {
     font-size: 26px;
-    margin-left: 75px;
+    margin-top: 12px;
 }

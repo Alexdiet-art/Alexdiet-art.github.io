@@ -39,7 +39,7 @@
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    font-size: 11.5px;
+    font-size: 12px;
     background: 
         linear-gradient(
             -50deg, 
@@ -61,8 +61,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    justify-content: space-around;
-    margin-right: 36px;
+    margin: 0px 16px
 }
 .health {
     font-size: 20px;
@@ -75,14 +74,19 @@
     font-weight: bold;
     font-size: 20px;
 }
-/* BULBASAUR */
-#pokemon-card-1 .attack {
+.power {
+    font-weight: bold;
+    font-size: 24px
+}
+.card-style-3 .attack {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 16px;
+    margin-bottom: 16px;
 }
+/* BULBASAUR */
 #pokemon-card-1 {
     background: 
         linear-gradient(

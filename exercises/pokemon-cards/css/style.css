@@ -7,3 +7,88 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+/************************ CARD-CONTAINER ***********************************/
+.card-style-3 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: 
+        linear-gradient(
+            -50deg, 
+        #ffff00, 
+        #f3cf04,
+        #ffff00
+        );
+    max-width: 350px;
+    border-radius: 12px;
+    border: 18px solid #f3cf04;
+}
+#pokemon-card-2 {
+    margin: 20px 16px;
+}
+#pokemon-card-3 {
+    margin: 20px 16px 0px 0px;
+}
+/************************Images+TEXT***********************************/
+.card-style-3 img {
+    border: 4px solid #dab307;
+    margin: 0px 16px;
+    object-fit: cover;
+}
+.card-style-3 .details {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 11.5px;
+    background: 
+        linear-gradient(
+            -50deg, 
+        #d49e09, 
+        #f3cf04,
+        #d49e09
+        );
+        margin: 4px 16px;
+}
+/************************FOOTER***********************************/
+.data {
+    border: 2px solid #ccad00;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 12px;
+}
+/* HEADER *********************************************************/
+.card-style-3 .pokemon-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-right: 36px;
+}
+.health {
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* HEADER ******************************************************/
+
+/* MIDDLE ROWS ************************************************/
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+/* BULBASAUR */
+#pokemon-card-1 .attack {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+#pokemon-card-1 {
+    background: 
+        linear-gradient(
+            -50deg, 
+        #58ce58, 
+        #2f942f,
+        #58ce58
+        );
+}

@@ -20,8 +20,9 @@
         #ffff00
         );
     max-width: 350px;
+    max-height: 550px;
     border-radius: 12px;
-    border: 18px solid #f3cf04;
+    border: 16px solid #f3cf04;
 }
 #pokemon-card-2 {
     margin: 20px 16px;
@@ -31,8 +32,8 @@
 }
 /************************Images+TEXT***********************************/
 .card-style-3 img {
-    border: 4px solid #dab307;
-    margin: 0px 16px;
+    border: 5px solid #dab307;
+    margin: 0px 12px;
     object-fit: cover;
 }
 .card-style-3 .details {
@@ -47,29 +48,30 @@
         #f3cf04,
         #d49e09
         );
-        margin: 4px 16px;
+        margin: 4px 12px;
 }
 /************************FOOTER***********************************/
 .data {
     border: 2px solid #ccad00;
     font-size: 12px;
     font-weight: bold;
-    margin: 12px;
+   margin: 12px 12px;
 }
-/* HEADER *********************************************************/
+/* ***********************HEADER **************************************/
 .card-style-3 .pokemon-header {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    margin: 0px 16px
+    margin: 0px 12px 0px;
+}
+.card-style-3 .pokemon-header h2 {
+    font-size: 24px;
 }
 .health {
     font-size: 20px;
-    margin-top: 20px;
 }
-/* HEADER ******************************************************/
 
-/* MIDDLE ROWS ************************************************/
+/************************ MIDDLE ROWS *******************************/
 .bold {
     font-weight: bold;
     font-size: 20px;
@@ -83,10 +85,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px;
-    margin-bottom: 16px;
+    border-bottom: 2px solid;
+    margin-left: 12px;
+    margin-right: 12px;
 }
-/* BULBASAUR */
+.description {
+    font-size: 14px;
+    display: inline-block;
+}
+/* BULBASAUR *******************************************************/
 #pokemon-card-1 {
     background: 
         linear-gradient(
@@ -96,3 +103,49 @@
         #58ce58
         );
 }
+#pokemon-card-1 .description {
+   margin-top: 26px;
+   margin-bottom: 36px;
+}
+/* NIDORAN *******************************************************/
+#pokemon-card-2 {
+    background: 
+    linear-gradient(
+        -50deg, 
+    #58ce58, 
+    #2f942f,
+    #58ce58
+    );
+}
+#pokemon-card-2 .description {
+    margin-top: 40px;
+    margin-bottom: 60px;
+ }
+/* CHARMANDER *******************************************************/
+#pokemon-card-3 {
+    background: 
+    linear-gradient(
+        -50deg, 
+    #e69b11, 
+    #e66611,
+    #e69b11
+    );
+}
+#pokemon-card-3 .description {
+    margin-top: 12px;
+    margin-bottom: 16px;
+ }
+/* SQUIRTLE *******************************************************/
+#pokemon-card-4 {
+    background: 
+    linear-gradient(
+        -50deg, 
+    #31f7e6, 
+    #16b5e6,
+    #31f7e6
+    );
+}
+#pokemon-card-4 .description {
+    margin-top: 8px;
+    margin-bottom: 8px;
+ }

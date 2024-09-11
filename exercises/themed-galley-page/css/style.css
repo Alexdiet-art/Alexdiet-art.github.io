@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #fce4e8;
+}
+#layout {
+    text-align: center;
+    max-width: 70vw;
+    margin: 24px auto;
+}
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flower-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 36px;
+    padding: 36px;
+    margin-top: 24px;
+    border: 24px solid #db6075;
+    border-style: groove;
+}
+.hero h1 {
+    color: #db6075;
+    font-size: 6vw;
+    text-align: center;
+}
+.flower-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

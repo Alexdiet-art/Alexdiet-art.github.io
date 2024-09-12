@@ -20,12 +20,11 @@
         #ffff00
         );
     max-width: 350px;
-    max-height: 550px;
     border-radius: 12px;
     border: 16px solid #f3cf04;
 }
 #pokemon-card-2 {
-    margin: 20px 16px;
+    margin: 20px 16px 0px;
 }
 #pokemon-card-3 {
     margin: 20px 16px 0px 0px;
@@ -55,20 +54,24 @@
     border: 2px solid #ccad00;
     font-size: 12px;
     font-weight: bold;
-   margin: 12px 12px;
+    margin: 10px 16px;
 }
 /* ***********************HEADER **************************************/
 .card-style-3 .pokemon-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 12px 0px;
+    margin: 0px 16px 0px 16px;
 }
 .card-style-3 .pokemon-header h2 {
     font-size: 24px;
+    align-items: center;
+    margin-bottom: 2px;
 }
-.health {
+.card-style-3 .pokemon-header .health {
     font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 /************************ MIDDLE ROWS *******************************/
@@ -86,8 +89,11 @@
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 2px solid;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin: 4px 16px;
+    flex: 1;
+}
+.card-style-3 .description {
+    padding-bottom: 12px;
 }
 .description {
     font-size: 14px;
@@ -103,10 +109,6 @@
         #58ce58
         );
 }
-#pokemon-card-1 .description {
-   margin-top: 26px;
-   margin-bottom: 36px;
-}
 /* NIDORAN *******************************************************/
 #pokemon-card-2 {
     background: 
@@ -117,10 +119,6 @@
     #58ce58
     );
 }
-#pokemon-card-2 .description {
-    margin-top: 40px;
-    margin-bottom: 60px;
- }
 /* CHARMANDER *******************************************************/
 #pokemon-card-3 {
     background: 
@@ -131,10 +129,6 @@
     #e69b11
     );
 }
-#pokemon-card-3 .description {
-    margin-top: 12px;
-    margin-bottom: 16px;
- }
 /* SQUIRTLE *******************************************************/
 #pokemon-card-4 {
     background: 
@@ -145,7 +139,3 @@
     #31f7e6
     );
 }
-#pokemon-card-4 .description {
-    margin-top: 8px;
-    margin-bottom: 8px;
- }

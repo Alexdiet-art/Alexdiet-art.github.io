@@ -72,3 +72,20 @@ body {
     padding: 12px 36px;
     margin: 12px 0px;
 }
+/* NAVBAR 3 ******************************************************/
+#banner-c3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-c3 a {
+    padding: 60px 48px;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    background-color: #dcf1e1;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+}

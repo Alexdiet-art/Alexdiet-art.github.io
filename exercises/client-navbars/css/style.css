@@ -4,7 +4,6 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #eff1dc;
 }
 /* NAVBAR 1 ****************************************************************/
 #navbar-c1 {
@@ -31,9 +30,6 @@ body {
     color: #dcf1e1;
 }
 /* NAVBAR 2 *********************************************************/
-body {
-    background-color: white;
-}
 #c2-logo a {
     color: #f7f0e8;
     font-size: 24px;
@@ -68,9 +64,7 @@ body {
     margin: 12px 0px;
 }
 /* NAVBAR 3 ******************************************************/
-body {
-    background-color: #000000c4;
-}
+
 #banner-c3 {
     display: flex;
     justify-content: center;

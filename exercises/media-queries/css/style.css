@@ -217,9 +217,15 @@ a {
         font-size: 14px;
     }
     #hero h1 {
-        font-size: 72px;
+        font-size: 48px;
     }
     #hero h3 {
-        font-size: 48px;
+        font-size: 32px;
+    }
+    .three-cards {
+        flex-wrap: wrap;
+    }
+    .two-cards {
+        display: inline-block;
     }
 }

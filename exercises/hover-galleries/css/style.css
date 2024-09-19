@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* CONTAINER 1 **********************************************************/
+h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.cards1 {
+    flex: 400px;
+    border: 5px solid #5e5ead;
+    background-color: #9d9dda;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+.cards1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.cards1 .c1-content {
+    color: #434385;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+.cards1:hover .c1-content {
+   opacity: 1;
+   visibility: visible;
+   transform: translateY(0px);
+}
+/* CONTAINER 2 **********************************************************/
+#container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.cards2 a {
+    text-decoration: none;
+    color: white;
+}
+.cards2 {
+    flex: 200px;
+    background-color: #1b1a1a;
+    font-size: 48px;
+    padding: 64px;
+    margin: 12px;
+    text-align: center;
+}
+/* CARD1 */
+#c2-1:hover {
+    background-color: #f0697f;
+    box-shadow: 12px 12px 12px #64ee8d;
+    transform: translateY(-12px);
+}
+#c2-1 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#c2-1:hover a {
+    color: #64ee8d;
+}
+#c2-1 a {
+    transition: color 0.5s;
+}
+/* CARD2 */
+#c2-2:hover {
+    background-color: #a869f0;
+    box-shadow: -12px -12px 12px #e964ee;
+    transform: translateY(-12px);
+}
+#c2-2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#c2-2:hover a {
+    color: #e964ee;
+}
+#c2-2 a {
+    transition: color 0.5s;
+}
+/* CARD3 */
+#c2-3:hover {
+    background-color: #f3aa4b;
+    box-shadow: -12px 12px 12px #6472ee;
+    transform: translateY(-12px);
+}
+#c2-3 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#c2-3:hover a {
+    color: #6472EE;
+}
+#c2-3 a {
+    transition: color 0.5s;
+}
+/* CARD4 */
+#c2-4:hover {
+    background-color: #f3e883;
+    box-shadow: 12px -12px 12px #64e5ee;
+    transform: translateY(-12px);
+}
+#c2-4 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+#c2-4:hover a {
+    color: #64e5ee;
+}
+#c2-4 a {
+    transition: color 0.5s;
+}
+/* CONTAINER 3 **********************************************************/
+#container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.card3 {
+    flex: 300px;
+    border: 5px solid black;
+    margin: 12px 24px;
+    padding: 24px;
+    text-align: center;
+}
+.card3 a {
+    display: block;
+    border: 3px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+}
+.c3-content:hover a {
+    background-color: #1b1a1a;
+    color: white;
+    box-shadow: 20px 20px 3px #0a0a0a3d;
+    transform: translateY(4px);
+}
+.c3-content a {
+    transition: 
+        background-color 0.5s,
+        color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+.card3 h2 {
+    font-size: 24px;
+}

@@ -30,7 +30,7 @@ body {
         #0e5b96
     );
 }
-#dropdown-container {
+.dropdown-container {
     position: relative;
 }
 .dropdown-menu {
@@ -41,11 +41,10 @@ body {
     width: 100%;
     min-width: 200px;
 }
-.dropdown-menu a:hover {
+#navbar .dropdown-menu a:hover {
     background: slateblue;
 }
 .dropdown-menu {
-    position: relative;
     opacity: 0;
     visibility: hidden;
     transition: 

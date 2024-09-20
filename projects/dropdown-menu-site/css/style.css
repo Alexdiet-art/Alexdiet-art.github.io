@@ -31,6 +31,7 @@ body {
     font-size: 40px;
     padding-top: 13px;
     padding-bottom: 12px;
+    font-weight: bold;
 }
 #navbar a {
     font-size: 24px;
@@ -92,7 +93,7 @@ body {
     font-weight: bold;
     margin-top: 0px;
     text-align: center;
-    padding: 0px 12px;
+    padding: 12px 24px 48px;
 }
 /* PAGE 2 *********************************************************/
 #page-2 {
@@ -116,7 +117,7 @@ body {
     font-weight: bold;
     margin-top: 0px;
     text-align: center;
-    padding: 0px 12px;
+    padding: 12px 24px 48px;
 }
 /* PAGE 3 ******************************************************************/
 #page-3 {
@@ -140,5 +141,22 @@ body {
     font-weight: bold;
     margin-top: 0px;
     text-align: center;
-    padding: 0px 12px;
+    padding: 12px 24px 48px;
+}
+@media screen and (max-width: 780px) {
+    #navbar a {
+        font-size: 14px;
+    }
+    #navbar #logo {
+        font-size: 22px;
+    }
+    .single-column img {
+        max-width: 250px;
+    }
+    .single-column h2 {
+        font-size: 20px;
+    }
+    .single-column p {
+        font-size: 14px;
+    }
 }

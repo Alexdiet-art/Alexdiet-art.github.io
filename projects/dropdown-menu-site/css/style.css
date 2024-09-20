@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-image: url("../images/catshero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+/* NAVBAR ***********************************************************/
+#navbar {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #eee0ca, #c79546);
+}
+#navbar a:hover {
+    background: linear-gradient(to top, #eee0ca, #c79546);
+}
+#navbar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    color: black;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-size: 40px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+#navbar a {
+    font-size: 24px;
+}
+/* NAV DROPDOWN ********************************************************/
+.dropdown-container {
+    position: relative;
+}
+#dropdown-menu {
+    position: absolute;
+}
+#dropdown-menu a {
+    background-color: #eee0ca;
+    width: 100%;
+    min-width: 200px;
+}
+#navbar #dropdown-menu a:hover {
+    background: #d6a85e;
+}
+#dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover #dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+
+}
+/* PAGE 1 *****************************************************/
+.single-column {
+    width: 40%;
+    min-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    padding-bottom: 12px;
+}
+#page-1 {
+    color: #616060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #28282b;
+    border: 4px solid #1b1b1b;
+    border-radius: 24px;
+}
+#page-1 img {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 24px;
+
+}
+#page-1 p {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 12px;
+}
+/* PAGE 2 *********************************************************/
+#page-2 {
+    color: #c22c39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #f5818b;
+    border: 4px solid #da4855;
+    border-radius: 24px;
+}
+#page-2 img {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 24px;
+
+}
+#page-2 p {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 12px;
+}
+/* PAGE 3 ******************************************************************/
+#page-3 {
+    color: #916811;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #e0ce93;
+    border: 4px solid #997016;
+    border-radius: 24px;
+}
+#page-3 img {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 24px;
+
+}
+#page-3 p {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+    padding: 0px 12px;
+}

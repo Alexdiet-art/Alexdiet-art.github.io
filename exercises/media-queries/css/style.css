@@ -223,9 +223,11 @@ a {
         font-size: 32px;
     }
     .three-cards {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
     }
     .two-cards {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -11,9 +11,9 @@ body {
     top: 0px;
 }
 #body {
-    background-image: url("../images/rest-image.webp");
+    background-image: url("../images/background-2.jpg");
     height: 130vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -63,29 +63,28 @@ body {
     justify-content: center;
 }
 #hero {
-    background-image: url("../images/hero-rest.jpg");
-    height: 75vh;
+    background-image: url("../images/hero2-rest.jpg");
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     margin: 72px 48px 36px 48px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .hero-content h2 {
-    font-size: 120px;
-    color: aliceblue;
-    text-shadow: 12px 12px 12px #0000008f;
+    font-size: 130px;
+    color: rgb(255, 255, 255);
+    text-shadow: 12px 12px 12px #000000d2;
     text-align: center;
+    padding-bottom: 45vh;
 }
 .hero-content a {
     display: flex;
     justify-content: center;
-    font-size: 36px;
+    font-size: 48px;
     text-decoration: none;
     color: aliceblue;
     background-color: #4553a4;
-    padding: 24px 36px;
+    padding: 24px 0px;
     border-radius: 48px;
-    margin: 0px 48px;
 }

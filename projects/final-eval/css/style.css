@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.single-column {
+    background-color: rgb(188, 188, 250);
+    min-width: 650px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-content .cards {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-content img {
+    width: 525px;
+}

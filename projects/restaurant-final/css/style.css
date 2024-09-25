@@ -12,7 +12,7 @@ body {
 }
 #body {
     background-image: url("../images/background-2.jpg");
-    height: 130vh;
+    height: 150vh;
     background-size: contain;
     background-position: center center;
     background-attachment: fixed;
@@ -87,4 +87,43 @@ body {
     background-color: #4553a4;
     padding: 24px 0px;
     border-radius: 48px;
+}
+/* MENU PAGE **********************************************/
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card-content #card-menu {
+    border: 5px solid #f5d9b4;
+    background-color: #ffffff;
+    padding: 16px;
+    flex: 300px;
+    margin: 24px;
+    height: 250px;
+}
+#main-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-feature h2 {
+    display: flex;
+    font-size: 64px;
+    color: #4553a4;
+    background-color: #f5d9b4;
+    
+}
+#main-feature img {
+    width: 80%;
+    height: 40%;
+    object-fit: cover;
+}
+#main-feature h4 {
+    font-size: 36px;
+}
+#main-feature p {
+    font-size: 22px;
+    margin: 0px 60px;
 }

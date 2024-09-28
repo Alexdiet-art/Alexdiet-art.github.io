@@ -12,7 +12,7 @@ body {
 }
 #body {
     background-image: url("../images/background-2.jpg");
-    min-height: 150vh;
+    min-height: 100vh;
     background-size: contain;
     background-position: center center;
     background-attachment: fixed;
@@ -94,6 +94,7 @@ body {
     background-color: #4553a4;
     padding: 24px 0px;
     border-radius: 48px;
+    margin: 0px 36px;
 }
 /* MENU PAGE **********************************************/
 .card-content {

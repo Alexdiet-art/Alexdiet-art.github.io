@@ -82,6 +82,9 @@ body {
     text-align: center;
     padding: 12vh 0px 16vh 0px;
 }
+.hero-content a:hover {
+    background-color: #7488f5;
+}
 .hero-content a {
     display: flex;
     justify-content: center;
